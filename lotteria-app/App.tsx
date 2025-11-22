@@ -1,8 +1,10 @@
-import OrderScreen from './screens/OrderScreen'; // Nhập component màn hình đặt hàng
+import OrderScreen from "./src/screens/OrderScreen"; // Nhập component màn hình đặt hàng
 
 export default function App() {
   return (
-    <OrderScreen /> // Render màn hình đặt hàng là component chính của ứng dụng
+    <OrderScreen />
+
+    // Render màn hình đặt hàng là component chính của ứng dụng
   );
 }
 
